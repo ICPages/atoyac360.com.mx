@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Atoyac 360 | Planes</title>
+    <link rel="icon" href="Atoyac360.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold science-gothic" href="index.html">Atoyac 360</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<header class="d-flex align-items-center">
+    <div class="container">
+        <h2 class="display-6 science-gothic">Planes de Atoyac 360</h2>
+        <p class="lead text-muted">
+            Atoyac 360 es un directorio local diseñado para impulsar la visibilidad de los negocios en Atoyac de Álvarez y sus alrededores.
+            Una plataforma accesible, organizada y enfocada en conectar a los comercios con clientes reales de forma rápida y directa.
+            Nuestro objetivo es facilitar la promoción local y fortalecer la economía de la ciudad, haciendo más sencillo descubrir, comparar y contactar a negocios confiables.
+        </p>
+        <ul class="list-unstyled">
+            <li>✔ Presencia pública con logo, dirección y horario</li>
+            <li>✔ Acceso desde móviles y escritorio</li>
+            <li>✔ Visibilidad en búsquedas locales</li>
+        </ul>
+    </div>
+</header>
+
+<!-- MAIN -->
+<main class="container">
+    <section class="mb-5">
+        <h3 class="h4 mb-3">Planes anuales</h3>
+        <p class="text-muted">Precios de lanzamiento pensados para negocios locales. Aumento del 10% anual con un tope a 10 años.</p>
+        <div class="row g-3">
+            <!-- Estándar -->
+            <div class="col-md-6">
+                <div class="business-card p-4 h-100">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div>
+                            <h4 class="mb-1">Plan Básico</h4>
+                            <small class="text-muted">Perfecto para mostrar tus productos y facilitar las ventas.</small>
+                        </div>
+                        <div class="text-end">
+                            <div class="price"> $199 MXN<small class="text-muted" style="font-weight:500"> /año</small></div>
+                            <div class="small text-muted">Precio de lanzamiento</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <ul class="list-unstyled mb-3">
+                        <li>• Logo</li>
+                        <li>• Nombre</li>
+                        <li>• Descripción</li>
+                        <li>• Contacto: enlace a WhatsApp para compra y enlace a sitio web</li>
+                        <li>• Horario</li>
+                        <li>• Menú o catálogo descargable (PDF)</li>
+                        <li>• Mapa</li>
+                        <li>• 1 actualización anual gratuita (1 de diciembre - 31 de enero)</li>
+                    </ul>
+                    <div class="d-flex gap-2">
+                        <a class="btn btn-primary-color"
+                           href="https://wa.me/522221106016?text=%C2%A1Hola%20*Atoyac%20360*%21%20Me%20gustar%C3%ADa%20registrar%20mi%20negocio%20en%20el%20plan%20_Est%C3%A1ndar_.">
+                           Registrar negocio</a>
+                        <button class="btn btn-link ms-auto" onclick="showGrowth('estandar')">
+                            Ver crecimiento (10% anual)
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Premium -->
+            <div class="col-md-6">
+                <div class="business-card p-4 h-100 premium-card">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div>
+                            <h4 class="mb-1">Plan Premium</h4>
+                            <small class="text-muted">Ideal para generar confianza, mostrar más y atraer nuevos clientes.</small>
+                        </div>
+                        <div class="text-end">
+                            <div class="price"> $299 MXN<small class="text-muted" style="font-weight:500"> /año</small></div>
+                            <div class="small text-muted">Precio de lanzamiento</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <ul class="list-unstyled mb-3">
+                        <li>• Todo el Plan Básico</li>
+                        <li>• Redes sociales: enlace a cada red social para interacción</li>
+                        <li>• Galería de imágenes: productos, servicios, establecimiento o equipo de trabajo</li>
+                        <li>• Calificación por usuarios: con el filtro te posicionas sobre planes básicos y te ordena por tu calificación.
+                        </li>
+                    </ul>
+                    <div class="d-flex gap-2">
+                        <a class="btn btn-primary-color"
+                           href="https://wa.me/522221106016?text=%C2%A1Hola%20*Atoyac%20360*%21%20Me%20gustar%C3%ADa%20registrar%20mi%20negocio%20en%20el%20plan%20_Premium_.">
+                           Registrar negocio</a>
+                        <button class="btn btn-link ms-auto" onclick="showGrowth('premium')">
+                            Ver crecimiento (10% anual)
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-muted"><br>
+            Actualizaciones fuera del periodo gratuito tendrá un precio de $99 MXN aplicable para cualquier plan y cambio en cualquier momento del año.<br>
+            Personalización exclusiva de la página individual (colores, orden y contenido) tendrá un precio de $499 MXN (pago único) y mantendrá precio de Plan Premium anualmente.<br>
+            Cambio de Básico a Premium tendrá precio de $99 MXN, mientras el cambio de Premium o Básico no se podrá realizar hasta la renovación anual.</p>
+        <div id="growthModal" class="modal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Progresión de precio</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <pre id="growthContent" style="white-space:pre-wrap"></pre>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary"
+                                data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- FOOTER -->
+    <footer class="custom-footer py-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-2 mb-3 text-center">
+                    <img src="Atoyac360.webp" alt="Atoyac 360" class="img-fluid" style="max-height: 120px;">
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5 class="science-gothic">Atoyac 360</h5>
+                    <p>Directorio local de negocios y servicios en Atoyac de Álvarez, Guerrero y sus alrededores.</p>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <h6>Enlaces</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="planesAtoyac360.html">Planes de Atoyac 360</a></li>
+                        <li><a href="politicasAtoyac360.html">Políticas de Atoyac 360</a></li>
+                        <li><a href="https://es.wikipedia.org/wiki/Atoyac_de_%C3%81lvarez">Sobre Atoyac de Álvarez</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                <h6>Contacto</h6>
+                <p class="m-0">
+                    <a href="https://www.facebook.com/share/1CyofTsBCq/" target="_blank"><i class="bi bi-facebook"></i> Facebook</a>
+                </p>
+                <p class="m-0">
+                    <a href="https://wa.me/522221106016?text=%C2%A1Hola%20*Atoyac%20360*%21%20Me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%3A"
+                       target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+                </p>
+            </div>
+
+            </div>
+
+            <div class="text-center mt-3">© 2026 Atoyac 360. Página desarrollada por IC Pages.</div>
+        </div>
+    </footer>
+
+<!-- FUNCIÓN DE CÁLCULO -->
+<script>
+function showGrowth(plan){
+    const rows = 10, rate = 0.10;
+    let start = plan==='estandar' ? 199 : 299;
+    let content = '';
+    for(let i=1; i<=rows; i++){
+        const price = Math.round(start * Math.pow(1+rate, i-1));
+        content += `Año ${i}: $${price} MXN\n`;
+    }
+    document.getElementById('growthContent').textContent = content;
+    const modal = new bootstrap.Modal(document.getElementById('growthModal'));
+    modal.show();
+}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
