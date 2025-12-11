@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title id="titulo"></title>
+  <link rel="icon" type="image/png" href="Atoyac360.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold science-gothic" href="index.html">Atoyac 360</a>
+  </div>
+</nav>
+
+<!-- MAIN -->
+<main class="container">
+  <h2 class="fw-bold bad-script-regular" id="nombre"></h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <img id="imagen" class="img-fluid rounded shadow" alt="Logo">
+      <p></p>
+      <h5 class="fw-bold">Contacto:</h5>
+      <p id="contacto" class="redes"></p>
+      <div id="bloque-horario">
+      <h5 class="fw-bold">Horario</h5>
+      <p id="horario"></p></div>
+      <p><a href="#" id="menu" download class="descargarmenu"><i class="bi bi-download"></i> Descargar Menú</a></p>
+      <h5 class="fw-bold">Calificación:</h5>
+      <div id="rating" class="star-rating">
+        <span class="star" data-value="1">☆</span>
+        <span class="star" data-value="2">☆</span>
+        <span class="star" data-value="3">☆</span>
+        <span class="star" data-value="4">☆</span>
+        <span class="star" data-value="5">☆</span>
+        <span id="rating-value">(0.0)</span>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <p id="deslarga"></p>
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2750">
+        <h5 class="fw-bold">Galería</h5>
+        <div class="carousel-inner" id="carousel-content"></div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          </div>
+          <div class="mt-4">
+    <h5 class="fw-bold">Ubicación</h5>
+
+    <div id="sucursal1-container" class="d-none">
+        <h6 id="sucursal1-titulo"></h6>
+        <iframe id="mapa1" width="100%" height="250" class="rounded border" loading="lazy"></iframe>
+    </div>
+
+    <div id="sucursal2-container" class="d-none">
+        <h6 id="sucursal2-titulo"></h6>
+        <iframe id="mapa2" width="100%" height="250" class="rounded border" loading="lazy"></iframe>
+    </div>
+</div>
+
+          <p></p>
+          </div>
+          </div>
+          </main>
+
+<!-- FOOTER -->
+    <footer class="custom-footer py-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-2 mb-3 text-center">
+                    <img src="Atoyac360.webp" alt="Atoyac 360" class="img-fluid" style="max-height: 120px;">
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5 class="science-gothic">Atoyac 360</h5>
+                    <p>Directorio local de negocios y servicios en Atoyac de Álvarez, Guerrero y sus alrededores.</p>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <h6>Enlaces</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="planesAtoyac360.html">Planes de Atoyac 360</a></li>
+                        <li><a href="politicasAtoyac360.html">Políticas de Atoyac 360</a></li>
+                        <li><a href="https://es.wikipedia.org/wiki/Atoyac_de_%C3%81lvarez">Sobre Atoyac de Álvarez</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                <h6>Contacto</h6>
+                <p class="m-0">
+                    <a href="https://www.facebook.com/share/1CyofTsBCq/" target="_blank"><i class="bi bi-facebook"></i> Facebook</a>
+                </p>
+                <p class="m-0">
+                    <a href="https://wa.me/522221106016?text=%C2%A1Hola%20*Atoyac%20360*%21%20Me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%3A"
+                       target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+                </p>
+            </div>
+
+            </div>
+
+            <div class="text-center mt-3">© 2026 Atoyac 360. Página desarrollada por IC Pages.</div>
+        </div>
+    </footer>
+
+<!-- Firebase SDK Modular -->
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+import { getFirestore, doc, getDoc, runTransaction } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
+const firebaseConfig = {
+  apiKey: "AIzaSyD579Z21DvWp9jabiNewT22O-Sk_8G_sQY",
+  authDomain: "atoyac360.firebaseapp.com",
+  projectId: "atoyac360",
+  storageBucket: "atoyac360.firebasestorage.app",
+  messagingSenderId: "1004338612408",
+  appId: "1:1004338612408:web:bbe17ed5b57e66d2194c4d",
+  measurementId: "G-0T4X5N476S"
+};
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+// ⭐ Función que inicia rating cuando ya conocemos el firebaseId
+async function iniciarRating(firebaseId) {
+    const stars = document.querySelectorAll("#rating .star");
+    const ratingValue = document.getElementById("rating-value");
+    let currentRating = 0;
+    const docRef = doc(db, "calificaciones", firebaseId);
+    function highlightStars(rating) {
+      stars.forEach(star => {
+        star.textContent = parseInt(star.dataset.value) <= Math.round(rating) ? '★' : '☆';
+      });
+    }
+    // Obtener calificación desde Firebase
+    const snap = await getDoc(docRef);
+    if (snap.exists()) {
+        const data = snap.data();
+        currentRating = data.promedio || 0;
+    }
+    ratingValue.textContent = `(${currentRating.toFixed(1)})`;
+    highlightStars(currentRating);
+    // Click en estrellas
+    stars.forEach(star => {
+      star.addEventListener("mouseover", () => highlightStars(parseInt(star.dataset.value)));
+      star.addEventListener("mouseout", () => highlightStars(currentRating));
+      star.addEventListener("click", async () => {
+        const rating = parseInt(star.dataset.value);
+        try {
+          await runTransaction(db, async (t) => {
+            const s = await t.get(docRef);
+            if (!s.exists()) {
+              t.set(docRef, { promedio: rating, votos: 1 });
+            } else {
+              const data = s.data();
+              const votos = data.votos || 0;
+              const promedio = data.promedio || 0;
+              const nuevoPromedio = ((promedio * votos) + rating) / (votos + 1);
+              t.update(docRef, { promedio: nuevoPromedio, votos: votos + 1 });
+            }
+          });
+          currentRating = rating;
+          ratingValue.textContent = `(${currentRating.toFixed(1)})`;
+          highlightStars(currentRating);
+        } catch (e) {
+          console.error("Error al actualizar calificación:", e);
+        }
+      });
+    });
+}
+window.iniciarRating = iniciarRating;
+</script>
+
+<!-- CARGA AUTOMÁTICA DESDE JSON -->
+<script>
+async function cargarNegocio() {
+  const params = new URLSearchParams(window.location.search);
+  const id = parseInt(params.get("id"));
+  if (!id) return;
+
+  const resp = await fetch("negocios.json");
+  const negocios = await resp.json();
+  const negocio = negocios.find(n => n.id === id);
+  if (!negocio) return;
+
+  // ---------- Título y descripción ----------
+  document.getElementById("titulo").textContent = negocio.nombre;
+  document.getElementById("nombre").textContent = negocio.nombre;
+  document.getElementById("deslarga").innerHTML = negocio.deslarga ?? negocio.descorta;
+  document.getElementById("imagen").src = negocio.imagen;
+
+  // ---------- Contactos ----------
+  let contactoHTML = "";
+
+  const tieneSucursal1 = negocio.sucursal1 && negocio.sucursal1.trim() !== "";
+  const tieneSucursal2 = negocio.sucursal2 && negocio.sucursal2.trim() !== "";
+
+  // Función contactos
+  function generarContactos(
+    sucursal,
+    llamadas = [],
+    whatsapp = [],
+    facebook = "",
+    instagram = "",
+    tiktok = "",
+    web1 = "", web2 = "", web3 = "",
+    facebookText = "Facebook",
+    instagramText = "",
+    tiktokText = "",
+    webText1 = "Sitio web",
+    webText2 = "Sitio web",
+    webText3 = "Sitio web"
+  ) {
+    let html = "";
+
+    if (
+      llamadas.some(n => n) ||
+      whatsapp.some(n => n) ||
+      facebook || instagram || tiktok ||
+      web1 || web2 || web3
+    ) {
+      if (sucursal) html += `<h6 class="fw-bold mt-2">${sucursal}</h6>`;
+
+      llamadas.forEach(num => {
+        if (num) html += `<a href="tel:${num.replace(/\s+/g,'')}"><i class="bi bi-telephone"></i> ${num}</a><br>`;
+      });
+
+      whatsapp.forEach(num => {
+        if (num) html += `<a href="https://wa.me/${num.replace(/\s+/g,'')}" target="_blank"><i class="bi bi-whatsapp"></i> ${num}</a><br>`;
+      });
+
+      if (facebook)
+        html += `<a href="https://facebook.com/${facebook}" target="_blank"><i class="bi bi-facebook"></i> ${facebookText}</a><br>`;
+      if (instagram)
+        html += `<a href="https://instagram.com/${instagram.replace("@","")}" target="_blank"><i class="bi bi-instagram"></i> ${instagramText || instagram}</a><br>`;
+      if (tiktok)
+        html += `<a href="https://www.tiktok.com/@${tiktok.replace("@","")}" target="_blank"><i class="bi bi-tiktok"></i> ${tiktokText || tiktok}</a><br>`;
+
+      if (web1) html += `<a href="${web1}" target="_blank"><i class="bi bi-globe"></i> ${webText1}</a><br>`;
+      if (web2) html += `<a href="${web2}" target="_blank"><i class="bi bi-globe"></i> ${webText2}</a><br>`;
+      if (web3) html += `<a href="${web3}" target="_blank"><i class="bi bi-globe"></i> ${webText3}</a><br>`;
+    }
+
+    return html;
+  }
+
+  // ---------- Sucursal 1 (AQUÍ SÍ VAN LAS WEBS) ----------
+  contactoHTML += generarContactos(
+    negocio.sucursal1,
+    [negocio.llamadas1, negocio.llamadas2],
+    [negocio.whatsapp1, negocio.whatsapp2],
+    negocio.facebook1,
+    negocio.instagram1,
+    negocio.tiktok1,
+    negocio.web1, negocio.web2, negocio.web3,
+    negocio.facebook_text1,
+    negocio.instagram_text1,
+    negocio.tiktok_text1,
+    negocio.web_text1, negocio.web_text2, negocio.web_text3
+  );
+
+  // ---------- Sucursal 2 (SIN WEBS PARA EVITAR DUPLICADOS) ----------
+  contactoHTML += generarContactos(
+    negocio.sucursal2,
+    [negocio.llamadas3, negocio.llamadas4],
+    [negocio.whatsapp3, negocio.whatsapp4],
+    negocio.facebook2,
+    negocio.instagram2,
+    negocio.tiktok2,
+    "", "", "",   // ← SIN WEBS PARA NO REPETIR
+    negocio.facebook_text2,
+    negocio.instagram_text2,
+    negocio.tiktok_text2
+  );
+
+  document.getElementById("contacto").innerHTML = contactoHTML;
+
+  // ---------- Horarios ----------
+  const horarioCaja = document.getElementById("horario");
+  const bloqueHorario = document.getElementById("bloque-horario");
+  let horarioHTML = "";
+
+  if (negocio.horario1 && negocio.horario2 && tieneSucursal1 && tieneSucursal2) {
+    horarioHTML += `<h6 class="mt-2">${negocio.sucursal1}</h6>${negocio.horario1}<br>`;
+    horarioHTML += `<h6 class="mt-2">${negocio.sucursal2}</h6>${negocio.horario2}`;
+  } else if (negocio.horario1) {
+    horarioHTML += negocio.horario1;
+  }
+
+  if (!horarioHTML) bloqueHorario.style.display = "none";
+  else horarioCaja.innerHTML = horarioHTML;
+
+  // ---------- Menú ----------
+  const menu = document.getElementById("menu");
+  if (negocio.menu) {
+    menu.href = negocio.menu;
+    menu.setAttribute("download", negocio.menu);
+    menu.style.display = "inline-block";
+  } else menu.style.display = "none";
+
+  // ---------- Carrusel ----------
+  const carousel = document.getElementById("carousel-content");
+  if (carousel) {
+    carousel.innerHTML = "";
+
+    const imagenesCarrusel = [
+      negocio.carrucel1,
+      negocio.carrucel2,
+      negocio.carrucel3,
+      negocio.carrucel4,
+      negocio.carrucel5
+    ].filter(img => img && img !== "null" && img.trim() !== "");
+
+    if (imagenesCarrusel.length === 0) {
+      document.getElementById("carouselExample").style.display = "none";
+    } else {
+      document.getElementById("carouselExample").style.display = "block";
+
+      imagenesCarrusel.forEach((img, index) => {
+        carousel.innerHTML += `
+          <div class="carousel-item ${index === 0 ? "active" : ""}">
+            <img src="${img}" class="d-block w-100 rounded" alt="" loading="lazy" decoding="async">
+          </div>`;
+      });
+    }
+  }
+
+  // ---------- Mapas ----------
+  const sucursal1Container = document.getElementById("sucursal1-container");
+  const mapa1 = document.getElementById("mapa1");
+  const sucursal1Titulo = document.getElementById("sucursal1-titulo");
+
+  if (negocio.mapa1 && negocio.mapa1.trim() !== "") {
+    mapa1.src = negocio.mapa1;
+    sucursal1Titulo.textContent = negocio.sucursal1 ?? "";
+    sucursal1Container.classList.remove("d-none");
+  } else sucursal1Container.classList.add("d-none");
+
+  const sucursal2Container = document.getElementById("sucursal2-container");
+  const mapa2 = document.getElementById("mapa2");
+  const sucursal2Titulo = document.getElementById("sucursal2-titulo");
+
+  if (negocio.mapa2 && negocio.mapa2.trim() !== "") {
+    mapa2.src = negocio.mapa2;
+    sucursal2Titulo.textContent = negocio.sucursal2 ?? "";
+    sucursal2Container.classList.remove("d-none");
+  } else sucursal2Container.classList.add("d-none");
+
+  // ---------- Rating ----------
+  if (negocio.firebaseId) {
+    iniciarRating(negocio.firebaseId);
+  }
+}
+
+cargarNegocio();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

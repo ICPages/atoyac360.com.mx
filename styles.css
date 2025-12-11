@@ -1,0 +1,239 @@
+/* ======================================================
+   VARIABLES DE COLOR — MODIFICA AQUÍ TODA LA PALETA
+====================================================== */
+:root {
+    /* NAVBAR */
+    --navbar-bg: #BF360C;
+    --navbar-text: #ffffff;
+    /* HEADER */
+    --hero-text: #E67E22;
+    /* BODY */
+    --body-bg: #FFF8E6;
+    /* TARJETAS */
+    --card-bg: #ffffff;
+    --card-text: #8C4A00;
+    /* FOOTER */
+    --footer-bg: #BF360C;
+    --footer-text: #ffffff;
+    /* OTROS */
+    --accent-color: #F4C430;
+    --card-shadow: #F0D8A0;
+}
+
+/* ======================================================
+   FUENTE PRINCIPAL
+====================================================== */
+.science-gothic {
+    font-family: "Science Gothic", sans-serif;
+    font-weight: 700;
+}
+
+.bad-script-regular {
+  font-family: "Bad Script", cursive;
+}
+
+/* ======================================================
+   BODY
+====================================================== */
+body {
+    background: var(--body-bg);
+    color: var(--card-text);
+    padding-top: 70px;
+}
+
+/* ======================================================
+   NAVBAR
+====================================================== */
+.navbar {
+    background-color: var(--navbar-bg) !important;
+}
+
+.navbar-brand, .navbar a {
+    color: var(--navbar-text) !important;
+}
+
+/* ======================================================
+   HEADER (HERO)
+====================================================== */
+.hero-header {
+    background: linear-gradient(45deg, #F4C430, #E67E22, #D35400);
+    background-size: 400% 100%;
+    animation: heroGradient 12s ease infinite;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.hero-header h1, .hero-header h2, .hero-header p, .hero-header span, .hero-header .science-gothic {
+    animation: textColor 12s ease infinite;
+}
+
+@keyframes heroGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes textColor {
+    25% { color: #ffffff; }
+    50% { color: #F4C430; }
+    75% { color: #E67E22; }
+    100% { color: #D35400; }
+}
+
+/* ======================================================
+   FILTRO
+====================================================== */
+#buscador .row {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#buscador .col-md-3 {
+    flex: 0 0 auto;
+    width: auto;
+}
+
+#buscador select,
+#buscador input {
+    min-width: 180px;
+}
+
+@media (max-width: 768px) {
+
+    #buscador .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #buscador .col-md-3 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #buscador select,
+    #buscador input,
+    #buscador button {
+        width: 100%;
+    }
+}
+
+/* ======================================================
+   TARJETAS DEL DIRECTORIO
+====================================================== */
+.business-card {
+    background: var(--card-bg);
+    color: var(--card-text);
+    transition: transform .25s ease, box-shadow .25s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.business-card:hover {
+    transform: translateY(-6px) scale(1.01);
+    box-shadow: 0 14px 30px #F4C430;
+}
+
+.premium-card {
+    border: 3px solid var(--accent-color);
+}
+
+/* ======================================================
+   PAGINACIÓN
+====================================================== */
+.page-item.active .page-link {
+    background-color: #BF360C;
+    border-color: var(--navbar-bg);
+    color: #FFF8E6;
+}
+.page-item .page-link {
+    background-color: #FFF8E6;    /* Antes estaba en el activo */
+    border-color: #BF360C;        /* Antes estaba en el activo */
+    color: #BF360C;               /* Texto */
+}
+.page-item:hover .page-link {
+    background-color: #F4C430;
+    border-color: var(--navbar-bg);
+    color: #BF360C;
+}
+
+/* ======================================================
+   CALIFICACIÓN
+====================================================== */
+.star-rating .star {
+    cursor: pointer;
+    font-size: 28px;
+    user-select: none;
+    display: inline-block;
+    padding: 3px;
+}
+
+/* ======================================================
+   CAROUSEL
+====================================================== */
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px; /* más bajo en móvil */
+    }
+}
+
+/* ======================================================
+   BOTONES
+====================================================== */
+.btn-primary-color {
+    background-color: var(--navbar-bg);
+    color: var(--navbar-text);
+    border-radius: 8px;
+}
+
+/* ======================================================
+   ENLACES
+====================================================== */
+.redes a {
+    color: #8C4A00;
+    text-decoration: none;
+}
+
+.redes a:hover {
+    color: #E67E22;
+    text-decoration: none;
+}
+
+.descargarmenu {
+    color: #8C4A00;
+    text-decoration: none;
+}
+
+.descargarmenu:hover {
+    color: #E67E22;
+    text-decoration: none;
+}
+
+/* ======================================================
+   FOOTER
+====================================================== */
+.custom-footer {
+    background: var(--footer-bg);
+    color: var(--footer-text);
+}
+
+.custom-footer a {
+    color: var(--footer-text);
+    text-decoration: none;
+}
+
+.custom-footer a:hover {
+    color: #F4C430;
+    text-decoration: none;
+}
