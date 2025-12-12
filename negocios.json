@@ -21,8 +21,10 @@
     "web_text1": "IC Freelancer",
     "web_text2": "atoyac360.com.mx",
     "web_text3": "linktr.ee",
+    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30489.9834699188!2d-100.45334093335927!3d17.206757553572753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb25460f0c5775%3A0x2eb016bf13c5e1b1!2s40930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764456954797!5m2!1ses-419!2smx",
     "carrucel1": "ICTec.webp"
+
   },
   {
     "id": 2,
@@ -39,7 +41,8 @@
     "deslarga": "Aitana's Beauty Zone es una academia de belleza dedicada a formar profesionales con técnicas actualizadas y enfoque práctico. Ofrecemos cursos diseñados para desarrollar habilidades reales en áreas como maquillaje, uñas, piel, peinados y más. Nuestra misión es brindar enseñanza de calidad, accesible y con acompañamiento personalizado. Aquí encontrarás un ambiente de aprendizaje dinámico, seguro y motivador. En Aitana's Beauty Zone impulsamos tu talento para que logres crecer y destacar en el mundo de la belleza otorgando diplomados en:<br>✔ Aplicación y decoración de uñas<br>✔ Color y transformación en el cabello<br>✔ Estilismo y diseño de imagen<br>✔ Maquillaje del rostro<br>✔ Peluquería y barbería",
     "horario1": "Martes a Domingo. 9:00 AM a 4:00 PM.",
     "whatsapp1": "742 423 3367",
-    "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.2552641123725!2d-100.4364183!3d17.2064017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb2554dc13a72f%3A0x914a4ffc9f400e63!2sAquiles%20Serd%C3%A1n%2046%2C%20Dorotea%2C%2040945%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764458994468!5m2!1ses-419!2smx"
+    "municipios": ["San Jerónimo de Juárez"],
+    "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.2552641123725!2d-100.4364183!3d17.2064017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb2554dc13a72f%3A0x914a4ffc9f400e63!2sAquiles%20Serd%C3%A1n%2046%2C%20Dorotea%2C%2040945%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764458994468!5m2!1ses-419!2smx" 
   },
   {
     "id": 3,
@@ -58,6 +61,7 @@
     "horario1": "Citas previas.",
     "whatsapp1": "742 115 7177",
     "instagram1": "@astridmakeuplashbrows",
+    "municipios": ["San Jerónimo de Juárez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15250.655047152204!2d-100.48100420823292!3d17.13789309438145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb2f16461b0ee7%3A0xfbf91e6911eb4cbe!2s40966%20San%20Jer%C3%B3nimo%20de%20Ju%C3%A1rez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764623437210!5m2!1ses-419!2smx",
     "carrucel1": "AstridM1.webp",
     "carrucel2": "AstridM2.webp",
@@ -80,6 +84,7 @@
     "deslarga": "C. D. Dalue Galeana ofrece atención profesional en un centro odontológico especializado, con servicios de odontología general, endodoncia, ortodoncia y cirugía bucal. La cita de primera vez incluye una valoración completa, limpieza ultrasónica, profilaxis y radiografía para obtener un diagnóstico preciso. Cada tratamiento se realiza con enfoque integral, calidad y tecnología actual. Nuestro objetivo es brindar salud bucal, comodidad y confianza en cada consulta. En el Centro Odontológico de la C. D. Dalue Galeana encontrarás atención especializada para cuidar tu sonrisa.",
     "horario1": "Lunes a Viernes. 10:00 AM a 7:00 PM.<br>Sábados y Domingos. 9:00 AM a 3:00 PM.",
     "whatsapp1": "742 120 0722",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.262996970352!2d-100.4362458!3d17.206026299999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb2554e97c2fd9%3A0xb8e1c93ae5a175bb!2sNarciso%20Mendoza%208%2C%20Dorotea%2C%2040930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764510260557!5m2!1ses-419!2smx"
   },
   {
@@ -99,6 +104,7 @@
     "llamadas1": "742 106 7150",
     "whatsapp1": "742 106 7150",
     "whatsapp2": "742 110 9372",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.7743003840712!2d-100.4335577304587!3d17.214073280009007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzUwLjciTiAxMDDCsDI1JzU4LjUiVw!5e0!3m2!1ses-419!2smx!4v1764624520653!5m2!1ses-419!2smx"
   },
   {
@@ -117,6 +123,7 @@
     "horario1": "Lunes a Sábado. 8:20 AM a 6:30 PM.",
     "llamadas1": "742 423 3154",
     "whatsapp1": "742 109 5974",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d952.7967155470517!2d-100.434759!3d17.209722!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3aab9bb00b23%3A0x97552ea896ed9280!2sDistribuidora%20El%C3%A9ctrica%20Atoyac!5e0!3m2!1ses-419!2smx!4v1764441979475!5m2!1ses-419!2smx"
   },
   {
@@ -134,6 +141,7 @@
     "deslarga": "Divertishow Chispita es una animadora infantil que convierte cualquier fiesta en un evento lleno de alegría, juegos y participación. Su energía, carisma y trato con los niños hacen que cada dinámica sea divertida, segura y memorable. Ofrece shows interactivos, concursos, baile, risas y entretenimiento adaptado a cada tipo de evento. Su objetivo es que todos los pequeños se diviertan y los papás disfruten sin preocupaciones. Con Divertishow Chispita tu fiesta estará llena de magia, entusiasmo y buen ambiente.<br>✔ Activación de negocios<br>✔ Baby shower's<br>✔ Fiestas infantiles<br>✔ Pintacaritas<br>✔ Despedidas de soltera",
     "horario1": "Contrataciones previas.",
     "whatsapp1": "742 110 6543",
+    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30489.9834699188!2d-100.45334093335927!3d17.206757553572753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb25460f0c5775%3A0x2eb016bf13c5e1b1!2s40930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764456954797!5m2!1ses-419!2smx"
   },
   {
@@ -152,6 +160,7 @@
     "horario1": "Citas previas.",
     "llamadas1": "744 193 7124",
     "whatsapp1": "742 688 5484",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.0985249155124!2d-100.4314101641935!3d17.21400906345353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3aae811faa59%3A0x1ac82ed9e9816434!2sMontes%20de%20Oca%2019%2C%20Centro%2C%2040930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764461420905!5m2!1ses-419!2smx"
   },
   {
@@ -182,7 +191,8 @@
     "menu": "DogstarMenu.pdf",
     "carrucel1": "Dogstar1.webp",
     "carrucel2": "Dogstar2.webp",
-    "carrucel3": "Dogstar3.webp"
+    "carrucel3": "Dogstar3.webp",
+    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez"]
   },
   {
     "id": 10,
@@ -198,6 +208,7 @@
     "pagina": "Basic.html",
     "deslarga": "Leños Pizzas Artesanales es un espacio dedicado a la preparación de pizzas con auténtico sabor casero. Cada pizza se elabora con masa fresca hecha a mano, ingredientes seleccionados y técnicas tradicionales que resaltan su aroma, textura y calidad. Nuestro horno y estilo artesanal aportan ese toque rústico y especial que hace que cada bocado sea memorable. Además de una experiencia culinaria deliciosa, ofrecemos un ambiente cálido e ideal para disfrutar en familia, con amigos o en pareja. Si buscas una pizza hecha con dedicación y pasión, Leños Pizzas Artesanales es tu mejor elección.",
     "llamadas1": "742 103 7158",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.8273302664323!2d-100.4393087304587!3d17.20377728008085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzEzLjYiTiAxMDDCsDI2JzE5LjIiVw!5e0!3m2!1ses-419!2smx!4v1764624181939!5m2!1ses-419!2smx"
   },
   {
@@ -215,6 +226,7 @@
     "deslarga": "Payaso Gutty ofrece un espectáculo lleno de alegría, juegos dinámicos y risas para hacer de cada fiesta un momento especial. Con carisma, energía y experiencia en animación infantil, interactúa con los pequeños mediante concursos, chistes y actividades participativas. Su objetivo es lograr que todos se diviertan mientras los papás disfrutan sin preocupaciones. Además, adapta su show a diferentes tipos de eventos y edades. Payaso Gutty es la opción ideal para llevar ambiente, diversión y un recuerdo inolvidable a cualquier celebración.",
     "horario1": "Contrataciones previas.",
     "whatsapp1": "742 114 7705",
+    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30489.9834699188!2d-100.45334093335927!3d17.206757553572753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb25460f0c5775%3A0x2eb016bf13c5e1b1!2s40930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764456954797!5m2!1ses-419!2smx"
   },
   {
@@ -241,7 +253,8 @@
     "carrucel2": "PorkyG2.webp",
     "carrucel3": "PorkyG3.webp",
     "carrucel4": "PorkyG4.webp",
-    "carrucel5": "PorkyG5.webp"
+    "carrucel5": "PorkyG5.webp",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 13,
@@ -258,6 +271,7 @@
     "deslarga": "Un espacio especializado en bienestar corporal y facial donde la relajación se combina con técnicas profesionales de cuidado estético. Ofrece tratamientos para pieles sanas, servicios corporales, masajes y rutinas personalizadas que ayudan a mejorar la apariencia, textura y luminosidad de la piel. Su ambiente tranquilo y su enfoque en el bienestar integral lo convierten en un punto ideal para desconectarte, consentirte y mantener tu piel en óptimas condiciones.",
     "horario1": "Viernes a Miércoles. 10:00 AM a 6:00 PM.<br>Jueves. 9:00 AM a 5:00 PM.",
     "whatsapp1": "781 100 7883",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.7995830350499!2d-100.43651573045871!3d17.209165280043262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzMzLjAiTiAxMDDCsDI2JzA5LjEiVw!5e0!3m2!1ses-419!2smx!4v1764625149256!5m2!1ses-419!2smx"
   },
   {
@@ -282,7 +296,8 @@
     "horario2": "Todos los días. 6:00 AM a 8:00 PM.",
     "llamadas3": "744 461 3703",
     "whatsapp3": "744 120 5419",
-    "mapa2": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d477.2960822518356!2d-99.90651396580661!3d16.85764825186466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85caf7035c0951ab%3A0xc9c8379c1a37642!2sSitio%20de%20taxis%20Acapulco%20-%20Atoyac!5e0!3m2!1ses-419!2smx!4v1764631571822!5m2!1ses-419!2smx"
+    "mapa2": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d477.2960822518356!2d-99.90651396580661!3d16.85764825186466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85caf7035c0951ab%3A0xc9c8379c1a37642!2sSitio%20de%20taxis%20Acapulco%20-%20Atoyac!5e0!3m2!1ses-419!2smx!4v1764631571822!5m2!1ses-419!2smx",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 15,
@@ -307,7 +322,8 @@
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d283.2676171680124!2d-100.43527309379853!3d17.210075383079136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3aab73d27973%3A0xb0d6da9150f4d2d!2sTACOS%20LUTE!5e0!3m2!1ses-419!2smx!4v1764441511009!5m2!1ses-419!2smx",
     "carrucel1": "TLute1.webp",
     "carrucel2": "TLute2.webp",
-    "carrucel3": "TLute3.webp"
+    "carrucel3": "TLute3.webp",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 16,
@@ -330,7 +346,8 @@
     "sucursal2": "Tío Pollo Express - Tecpan",
     "horario2": "Miércoles a Lunes. 9:00 AM a 6:00 PM.",
     "llamadas3": "565 074 4752",
-    "mapa2": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3810.8458244038247!2d-100.63208692318787!3d17.226267065252138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEzJzM0LjUiTiAxMDDCsDM3JzM4LjAiVw!5e0!3m2!1ses-419!2smx!4v1764874424810!5m2!1ses-419!2smx"
+    "mapa2": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3810.8458244038247!2d-100.63208692318787!3d17.226267065252138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEzJzM0LjUiTiAxMDDCsDM3JzM4LjAiVw!5e0!3m2!1ses-419!2smx!4v1764874424810!5m2!1ses-419!2smx",
+    "municipios": ["Atoyac de Álvarez", "Tecpan de Galeana"]
   },
   {
     "id": 17,
@@ -352,7 +369,8 @@
     "sucursal2": "Sitio Zihuatanejo",
     "horario2": "Todos los días. A partir de 5:00 AM.",
     "llamadas3": "755 103 3689",
-    "mapa2": ""
+    "mapa2": "",
+    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"]
   },
   {
     "id": 18,
@@ -370,6 +388,7 @@
     "horario1": "24 horas.",
     "llamadas1": "742 423 5175",
     "whatsapp1": "744 344 3938",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d952.8068435504952!2d-100.43645693045872!3d17.207755580053103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3aab337ed69b%3A0x5abbadf997752879!2sTorre%20Medica%20%22San%20Jose%22!5e0!3m2!1ses-419!2smx!4v1764683416074!5m2!1ses-419!2smx"
   },
   {
@@ -387,6 +406,7 @@
     "deslarga": "Multimédica Atoyac es una clínica de especialidades dedicada a ofrecer atención médica integral y de calidad. Cuenta con profesionales capacitados en diversas áreas, instalaciones modernas y tecnología adecuada para diagnósticos y tratamientos precisos. Su objetivo es brindar un servicio confiable y personalizado, asegurando la comodidad y bienestar del paciente. La clínica ofrece desde consultas generales hasta procedimientos especializados, garantizando un enfoque completo en la salud. En Multimédica Atoyac encontrarás atención profesional, confianza y cuidado para toda la familia.<br>✔ Cardiología<br>✔ Dermatología<br>✔ Ginecología<br>✔ Medicina familiar<br>✔ Nutrición y estética<br>✔ Nutriología<br>✔ Podología<br>✔ Traumatología<br>✔ Ultrasonido<br>✔ Urgencias",
     "horario1": "24 horas.",
     "whatsapp1": "742 688 5484",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.3288161334863!2d-100.4387298390333!3d17.20283071556848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb2555ed0b4561%3A0x2f40a4696c15863c!2sMULTIMEDICA%20ATOYAC!5e0!3m2!1ses-419!2smx!4v1764684470314!5m2!1ses-419!2smx"
   },
   {
@@ -412,7 +432,8 @@
     "carrucel1": "CortesB1.webp",
     "carrucel2": "CortesB2.webp",
     "carrucel3": "CortesB3.webp",
-    "carrucel4": "CortesB4.webp"
+    "carrucel4": "CortesB4.webp",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 21,
@@ -434,7 +455,8 @@
     "sucursal2": "Pastelería y Materias Primas \"Luna\"",
     "horario2": "Lunes a Sábado. 9:00 AM a 7:00 PM.",
     "whatsapp3": "742 103 7651",
-    "mapa2": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.8019059270971!2d-100.43687373045871!3d17.20871428004642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzMxLjQiTiAxMDDCsDI2JzEwLjQiVw!5e0!3m2!1ses-419!2smx!4v1764688256009!5m2!1ses-419!2smx"
+    "mapa2": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.8019059270971!2d-100.43687373045871!3d17.20871428004642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzMxLjQiTiAxMDDCsDI2JzEwLjQiVw!5e0!3m2!1ses-419!2smx!4v1764688256009!5m2!1ses-419!2smx",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 22,
@@ -452,7 +474,8 @@
     "horario1": "Pedidos previos y entregas inmediatas.",
     "whatsapp1": "742 1237170",
     "whatsapp2": "742 111 8798",
-    "mapa2": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3811.2183014352895!2d-100.44300192483915!3d17.208195983648782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzI5LjUiTiAxMDDCsDI2JzI1LjUiVw!5e0!3m2!1ses-419!2smx!4v1764788276374!5m2!1ses-419!2smx"
+    "mapa2": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3811.2183014352895!2d-100.44300192483915!3d17.208195983648782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzI5LjUiTiAxMDDCsDI2JzI1LjUiVw!5e0!3m2!1ses-419!2smx!4v1764788276374!5m2!1ses-419!2smx",
+    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"]
   },
   {
     "id": 23,
@@ -470,7 +493,8 @@
     "horario1": "Pedidos previos y entregas inmediatas.",
     "whatsapp1": "742 119 4931",
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30489.9834699188!2d-100.45334093335927!3d17.206757553572753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb25460f0c5775%3A0x2eb016bf13c5e1b1!2s40930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764456954797!5m2!1ses-419!2smx",
-    "menu": ""
+    "menu": "",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 24,
@@ -487,6 +511,7 @@
     "deslarga": "Aquí encuentras productos de ferretería y materiales de construcción seleccionados por su calidad y durabilidad. El enfoque del negocio es brindar seguridad al cliente, evitando productos de baja calidad que comprometan una obra. Ofrecen asesoría directa para ayudarte a elegir lo más adecuado según tu proyecto. También manejan precios accesibles sin sacrificar la resistencia de los materiales. Su objetivo es que construyas con tranquilidad y lleves a casa lo mejor para tu patrimonio.",
     "horario1": "Lunes a Sábado. 8:00 AM a 6:00 PM.",
     "whatsapp1": "742 109 4150",
+    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d476.4110354882873!2d-100.4385945334361!3d17.20479866273745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb254c6d2af809%3A0xba4a89a64987b89!2sFerreter%C3%ADa%20y%20materiales%20Ejido!5e0!3m2!1ses-419!2smx!4v1764789624571!5m2!1ses-419!2smx"
   },
   {
@@ -505,6 +530,7 @@
     "horario1": "Lunes a Viernes. 8:00 AM a 6:00 PM.<br>Sábados. 8:00 AM a 3:00 PM.",
     "llamadas1": "742 423 5545",
     "whatsapp1": "742 119 6072",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1133.0510147213345!2d-100.43380481878341!3d17.213254842867272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3aab8b552b29%3A0xff9c83e75bbece3c!2sFOTO%20ALBARR%C3%81N!5e0!3m2!1ses-419!2smx!4v1764790696040!5m2!1ses-419!2smx"
   },
   {
@@ -522,6 +548,7 @@
     "deslarga": "El Rasta Barbería ofrece una experiencia completa en cuidado masculino, combinando cortes modernos, perfilados y estilos urbanos con un servicio profesional y detallado. Cuenta además con cursos de barbería diseñados para quienes buscan aprender desde cero o perfeccionar su técnica. Su espacio está pensado para brindar comodidad, buena vibra y atención personalizada. Aquí encontrarás calidad, precisión y un ambiente auténtico que te hará volver. Ideal tanto para clientes como para futuros barberos.",
     "horario1": "Citas previas.",
     "whatsapp1": "744 415 5273",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.8306873777132!2d-100.44429873047764!3d17.203125280085434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzExLjMiTiAxMDDCsDI2JzM3LjIiVw!5e0!3m2!1ses-419!2smx!4v1764796066300!5m2!1ses-419!2smx"
   },
   {
@@ -547,7 +574,8 @@
     "carrucel2": "MADYRB2.webp",
     "carrucel3": "MADYRB3.webp",
     "carrucel4": "MADYRB4.webp",
-    "carrucel5": "MADYRB5.webp"
+    "carrucel5": "MADYRB5.webp",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 28,
@@ -574,7 +602,8 @@
     "carrucel2": "AzulPastel2.webp",
     "carrucel3": "AzulPastel3.webp",
     "carrucel4": "AzulPastel4.webp",
-    "carrucel5": "AzulPastel5.webp"
+    "carrucel5": "AzulPastel5.webp",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 29,
@@ -591,6 +620,7 @@
     "deslarga": "Encuentra la manera perfecta de expresar tus sentimientos con hermosos arreglos florales. Cada ramo se elabora con flores frescas y de alta calidad, cuidando cada detalle del diseño. Ofrecen opciones para cumpleaños, aniversarios, bodas, funerales y celebraciones especiales. Además, brindan asesoría para elegir la combinación ideal según la ocasión y el mensaje que deseas transmitir. El servicio se complementa con entregas rápidas y atención personalizada para garantizar satisfacción total. Un espacio donde la creatividad y la belleza de la naturaleza se unen para crear momentos inolvidables.",
     "horario1": "Lunes. 7:00 AM a 7:00 PM.<br>Martes a Sábado. 7:00 AM a 8:00 PM.<br>Domingo. 7:00 AM a 6:00 PM",
     "whatsapp1": "744 169 1694",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d476.39502525671645!2d-100.4351730276721!3d17.21101594221181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b9af200f2a9%3A0xeb3eba832211daca!2sFloreria%20REGALA%20FLORES!5e0!3m2!1ses-419!2smx!4v1764874050355!5m2!1ses-419!2smx"
   },
   {
@@ -608,6 +638,7 @@
     "deslarga": "Pozolería Las Cazuelas ofrece el auténtico pozole tradicional con el sabor casero que distingue a la cocina local. Cada jueves abre sus puertas para brindar una experiencia cálida y familiar, ideal para reunirse y compartir. Además, el ambiente se enriquece con música en vivo, creando un momento agradable para disfrutar en compañía. Su propuesta combina buena comida, tradición y entretenimiento, logrando que cada visita se convierta en una noche especial para sus comensales.",
     "horario1": "Jueves. A partir de 1:30 PM.",
     "llamadas1": "742 423 4474",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d336.86716534908743!2d-100.43451184795147!3d17.208263445162544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b005950e4bf%3A0x8c406c7acee585b5!2sPozoleria%20Las%20cazuelas!5e0!3m2!1ses-419!2smx!4v1764965512031!5m2!1ses-419!2smx"
   },
   {
@@ -624,6 +655,7 @@
     "pagina": "Basic.html",
     "deslarga": "Burbu Clean ofrece una gran variedad de productos de limpieza para el hogar, oficinas y comercios, garantizando calidad y precios accesibles. Encontrarás detergentes, desinfectantes, aromatizantes, jabones y más artículos esenciales para mantener tus espacios impecables. Su servicio está pensado para hacerte la vida más fácil, con atención rápida y amable. Además, cuentan con envío a domicilio en compras mayores a $50, ideal para quienes buscan comodidad sin pagar de más. Una opción práctica, confiable y cercana para tus necesidades de limpieza.",
     "whatsapp1": "747 219 1596",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.9546163739725!2d-100.4367642768116!3d17.207519873626705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3bd54e54dab7%3A0xade82506c72fd846!2sProductos%20de%20limpieza%20Burbu%20Clean!5e0!3m2!1ses-419!2smx!4v1765000364162!5m2!1ses-419!2smx"
   },
   {
@@ -643,7 +675,8 @@
     "whatsapp1": "742 100 7124",
     "whatsapp2": "742 113 0774",
     "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.931430773675!2d-100.43786273047765!3d17.18354828022189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDExJzAwLjgiTiAxMDDCsDI2JzE0LjAiVw!5e0!3m2!1ses-419!2smx!4v1765002126329!5m2!1ses-419!2smx",
-    "menu": "PozoleriaLaFincaMenu.pdf"
+    "menu": "PozoleriaLaFincaMenu.pdf",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 33,
@@ -669,7 +702,8 @@
     "carrucel2": "BSalon2.webp",
     "carrucel3": "BSalon3.webp",
     "carrucel4": "BSalon4.webp",
-    "carrucel5": "BSalon5.webp"
+    "carrucel5": "BSalon5.webp",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 34,
@@ -687,7 +721,8 @@
     "horario1": "Todos los días. 4:00 PM a 10:00 PM.",
     "whatsapp1": "742 113 3201",
     "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.7992327934332!2d-100.43389473045868!3d17.20923328004281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzMzLjIiTiAxMDDCsDI1JzU5LjciVw!5e0!3m2!1ses-419!2smx!4v1765041053989!5m2!1ses-419!2smx",
-    "menu": "OrigenRestauranteMenu.pdf"
+    "menu": "OrigenRestauranteMenu.pdf",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 35,
@@ -704,6 +739,7 @@
     "deslarga": "Ofrece atención psicológica integral para niños, adolescentes y adultos, brindando un espacio seguro y de confianza para trabajar emociones, comportamientos y procesos personales. Su enfoque combina calidez humana con técnicas terapéuticas efectivas para acompañar a cada paciente en su propia historia. Las consultas pueden ser presenciales o en línea, adaptándose a las necesidades de cada persona. También se brinda apoyo en situaciones de ansiedad, estrés, duelos y desarrollo personal. Su misión es transformar vidas, una sesión a la vez, promoviendo bienestar y crecimiento emocional.",
     "horario1": "Citas previas.",
     "whatsapp1": "744 449 9908",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30489.9834699188!2d-100.45334093335927!3d17.206757553572753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb25460f0c5775%3A0x2eb016bf13c5e1b1!2s40930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764456954797!5m2!1ses-419!2smx"
   },
   {
@@ -721,6 +757,7 @@
     "deslarga": "Servicio profesional de nutrición enfocado en ayudarte a cumplir tus objetivos de salud mediante planes personalizados. Se ofrecen consultas presenciales y en línea adaptadas a tu estilo de vida. Incluye control de peso, recomposición corporal, educación alimentaria y atención de enfermedades metabólicas. Cada plan se basa en hábitos sostenibles y estrategias prácticas para lograr resultados reales. Ideal para quienes buscan mejorar su bienestar de forma segura y profesional.",
     "horario1": "Citas previas.",
     "whatsapp1": "744 176 1389",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30489.9834699188!2d-100.45334093335927!3d17.206757553572753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb25460f0c5775%3A0x2eb016bf13c5e1b1!2s40930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764456954797!5m2!1ses-419!2smx"
   },
   {
@@ -745,7 +782,8 @@
     "horario2": "6:00 AM, 8:00 AM, 10:00 AM, 12:00 PM,<br>2:00 PM, 4:00 PM y 6:00 PM.",
     "llamadas3": "747 472 6371",
     "whatsapp3": "747 119 4128",
-    "mapa2": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.8593396818605!2d-99.5093860455761!3d17.56188236841516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cbed0c6367fd4f%3A0xbb81e91d6baa4c91!2sRuta%20Atoyac-Chilpancingo!5e0!3m2!1ses-419!2smx!4v1765050951567!5m2!1ses-419!2smx"
+    "mapa2": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.8593396818605!2d-99.5093860455761!3d17.56188236841516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cbed0c6367fd4f%3A0xbb81e91d6baa4c91!2sRuta%20Atoyac-Chilpancingo!5e0!3m2!1ses-419!2smx!4v1765050951567!5m2!1ses-419!2smx",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 38,
@@ -771,7 +809,8 @@
     "carrucel2": "JPalmira2.webp",
     "carrucel3": "JPalmira3.webp",
     "carrucel4": "JPalmira4.webp",
-    "carrucel5": "JPalmira5.webp"
+    "carrucel5": "JPalmira5.webp",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 39,
@@ -789,6 +828,7 @@
     "horario1": "24 horas.",
     "llamadas1": "742 423 3333",
     "whatsapp1": "742 111 2886",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1271.8266758605007!2d-100.43508528758584!3d17.21035383391067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b2e8c82c011%3A0x50873c827782753f!2sHospital-Clinica%20Atoyac!5e0!3m2!1ses-419!2smx!4v1765054425595!5m2!1ses-419!2smx"
   },
   {
@@ -807,6 +847,7 @@
     "horario1": "Lunes a Sábado. 9:00 AM a 6:00 PM.",
     "llamadas1": "742 423 6417",
     "whatsapp1": "742 131 0756",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d801.2080170139167!2d-100.43571442984806!3d17.208642732454578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b0e892f13a9%3A0x98156ad8f7e86369!2sImprenta%20Beltrones!5e0!3m2!1ses-419!2smx!4v1765388795266!5m2!1ses-419!2smx"
   },
   {
@@ -824,6 +865,7 @@
     "deslarga": "Centro dedicado a la impresión digital y al diseño gráfico, ofreciendo soluciones completas en publicidad visual. Realizan lonas, vinil impreso, rotulación y sublimación en playeras con acabados de alta calidad. También trabajan toldos y anuncios luminosos para negocios que buscan mayor presencia e impacto. Su enfoque es brindar trabajos rápidos, profesionales y completamente personalizados. Una opción ideal para quienes necesitan materiales publicitarios llamativos y bien elaborados.",
     "horario1": "Lunes a Viernes. 10:00 AM a 4:00 PM.<br>Sábado. 10:00 AM a 3:00 PM.",
     "whatsapp1": "742 110 3090",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1905.6024925453971!2d-100.43379400870707!3d17.208842356096657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzMxLjgiTiAxMDDCsDI1JzU5LjIiVw!5e0!3m2!1ses-419!2smx!4v1765387420934!5m2!1ses-419!2smx"
   },
   {
@@ -845,7 +887,8 @@
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d673.7365699888506!2d-100.43607889219793!3d17.207648555689236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b55b2b1e593%3A0xc1e0154e1098734a!2sRefaccionaria%20y%20Taller%20de%20Motos%20Evolet!5e0!3m2!1ses-419!2smx!4v1765388738584!5m2!1ses-419!2smx",
     "sucursal2": "Sucursal San Jerónimo de Juárez",
     "horario2": "Lunes a Sábado. 9:00 AM a 6:00 PM.",
-    "mapa2": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d953.1666628067751!2d-100.46809273045884!3d17.137752280540514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDA4JzE1LjkiTiAxMDDCsDI4JzAyLjgiVw!5e0!3m2!1ses-419!2smx!4v1765389608596!5m2!1ses-419!2smx"
+    "mapa2": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d953.1666628067751!2d-100.46809273045884!3d17.137752280540514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDA4JzE1LjkiTiAxMDDCsDI4JzAyLjgiVw!5e0!3m2!1ses-419!2smx!4v1765389608596!5m2!1ses-419!2smx",
+    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez"]
   },
   {
     "id": 43,
@@ -871,7 +914,8 @@
     "carrucel2": "JCSS2.webp",
     "carrucel3": "JCSS3.webp",
     "carrucel4": "JCSS4.webp",
-    "carrucel5": "JCSS5.webp"
+    "carrucel5": "JCSS5.webp",
+    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"]
   },
   {
     "id": 44,
@@ -889,6 +933,7 @@
     "horario1": "Lunes a Sábado. 10:00 AM a 8:00 PM.<br>Citas previas.",
     "llamadas1": "742 423 4327",
     "whatsapp1": "742 100 6330",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1009.4418242181742!2d-100.43290461667064!3d17.211763149148155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3aac44f2bad9%3A0x6af46d588f11808a!2sGlow%20Up%20Salon%20By%20Xuxo!5e0!3m2!1ses-419!2smx"
   },
   {
@@ -906,7 +951,8 @@
     "deslarga": "Ofrecen una gran variedad de sabores en pizzas, acompañadas de alitas, papas, hamburguesas y ensaladas para todos los gustos. Su enfoque es brindar comida fresca, bien servida y con el mejor sabor. Cuentan con un servicio a domicilio eficiente para que disfrutes desde casa sin complicaciones. Ideal para antojos, comidas con amigos o cenas familiares. Un lugar donde la rapidez y el sabor van de la mano.",
     "horario1": "Viernes a Miércoles. 10:00 AM a 11:00 PM.",
     "llamadas1": "742 423 6570",
-    "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.7990370695926!2d-100.43260273045871!3d17.20927128004251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzMzLjQiTiAxMDDCsDI1JzU1LjEiVw!5e0!3m2!1ses-419!2smx!4v1765395328997!5m2!1ses-419!2smx"
+    "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d952.7990370695926!2d-100.43260273045871!3d17.20927128004251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzMzLjQiTiAxMDDCsDI1JzU1LjEiVw!5e0!3m2!1ses-419!2smx!4v1765395328997!5m2!1ses-419!2smx",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 46,
@@ -923,11 +969,12 @@
     "deslarga": "Un espacio donde el sabor de casa y la tradición se unen para ofrecer una experiencia culinaria auténtica. Aquí podrás disfrutar de platillos típicos preparados al estilo tradicional, con ese toque casero que recuerda a la cocina familiar. Su ambiente cálido y tranquilo lo convierte en un punto ideal para convivir y disfrutar buena comida. Destacan sus especialidades regionales y, sobre todo, el jueves pozolero, uno de los favoritos de los clientes. Un sitio perfecto para quienes buscan calidad, tradición y un sabor que reconforta.",
     "horario1": "Martes a Domingo. 8:30 AM a 5:00 PM.",
     "whatsapp1": "742 688 5645",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1905.567628412415!2d-100.4335439606638!3d17.212226566535243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzQ0LjAiTiAxMDDCsDI1JzU3LjkiVw!5e0!3m2!1ses-419!2smx!4v1765401998101!5m2!1ses-419!2smx"
   },
   {
     "id": 47,
-    "firebaseId": "Kuzuri",
+    "firebaseId": "KuzuriCJa",
     "imagen": "KuzuriCJ.webp",
     "nombre": "Cocina Japonesa Kuzuri",
     "categoria": "Alimentos y Bebidas",
@@ -949,7 +996,8 @@
     "carrucel2": "KuzuriCJ2.webp",
     "carrucel3": "KuzuriCJ3.webp",
     "carrucel4": "KuzuriCJ4.webp",
-    "carrucel5": "KuzuriCJ5.webp"
+    "carrucel5": "KuzuriCJ5.webp",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 48,
@@ -966,6 +1014,7 @@
     "deslarga": "Churros Yuni ofrece churros recién hechos, crujientes por fuera y suaves por dentro, preparados al momento para garantizar el mejor sabor. Sus rellenos y toppings le dan un toque especial que encanta a chicos y grandes. Es una opción ideal para antojos dulces, ya sea para llevar o disfrutar al instante. Cada churro está elaborado con dedicación para brindar una experiencia deliciosa. Perfecto para consentirte con un postre calientito y lleno de sabor.",
     "horario1": "Miércoles a Domingo. 4:00 PM a 11:00 PM.",
     "whatsapp1": "742 112 0049",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1347.587864793738!2d-100.4382656277497!3d17.191890073749384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDExJzMwLjgiTiAxMDDCsDI2JzE1LjEiVw!5e0!3m2!1ses-419!2smx!4v1765406776896!5m2!1ses-419!2smx"
   },
   {
@@ -984,7 +1033,8 @@
     "horario1": "Lunes a Domingo. 4:00 PM a 11:00 PM.",
     "whatsapp1": "742 115 6946",
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d400.60776291258065!2d-100.43657161976026!3d17.20690890975483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb2562159f9013%3A0x18e21162ac50c300!2sMr.Burguer!5e0!3m2!1ses-419!2smx!4v1765408035191!5m2!1ses-419!2smx",
-    "menu": "MrBurguerMenu.pdf"
+    "menu": "MrBurguerMenu.pdf",
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 50,
@@ -1001,7 +1051,7 @@
     "deslarga": "Ofrecen una propuesta deliciosa y equilibrada para quienes buscan alimentarse mejor sin sacrificar el sabor. Sus platillos se preparan con ingredientes frescos y de alta calidad, ideales para un estilo de vida saludable. Cada receta está pensada para brindar energía, nutrición y un toque único en cada bocado. Perfecto para quienes desean cuidar su cuerpo mientras disfrutan de comida rica. Una opción confiable para disfrutar “el lado nutritivo de la comida”.",
     "horario1": "Lunes a Viernes. 8:30 AM a 4:30 PM.",
     "whatsapp1": "742 121 0990",
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1602.356443083611!2d-100.42732701752308!3d17.215520989365494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b4a100f6b3b%3A0x1dd3803603b7cc7a!2sVerdecito%20Atoyac!5e0!3m2!1ses-419!2smx!4v1765414073921!5m2!1ses-419!2smx"
   }
-
 ]
