@@ -94,6 +94,11 @@ body {
     align-items: center;
 }
 
+#buscador .card {
+    max-width: 1000px;   /* Ajusta el valor que desees */
+    margin: 0 auto;       /* Centra horizontalmente */
+}
+
 #buscador .col-md-3 {
     flex: 0 0 auto;
     width: auto;
