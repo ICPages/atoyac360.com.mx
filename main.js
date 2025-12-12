@@ -1,8 +1,8 @@
-// main.js - filtro, búsqueda y paginación con Firebase
+// main.js - filtro, búsqueda y paginación con Firebase (optimizado)
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
 import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
-// Firebase config
+// ---------- CONFIG FIREBASE ----------
 const firebaseConfig = {
   apiKey: "AIzaSyD579Z21DvWp9jabiNewT22O-Sk_8G_sQY",
   authDomain: "atoyac360.firebaseapp.com",
@@ -15,37 +15,81 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-console.log('Puebla 360 - script cargado');
+console.log('Atoyac 360 - script cargado (optimizado)');
 
+// ---------- ESTADO ----------
 let negocios = [];
 const RESULTS_PER_PAGE = 12;
 let currentPage = 1;
-let activeFilters = { category:'', dom:'', tartra:'', sort:'', est:'' };
+
+// 🔥 dom y tartra eliminados
+let activeFilters = { category:'', municipio:'', sort:'', est:'' };
+
 let searchText = '';
 
 const resultsGrid = document.getElementById('resultsGrid');
 const paginationEl = document.getElementById('pagination');
 
-// Cargar negocios con calificación de Firebase
-async function cargarNegocios() {
-  const res = await fetch('negocios.json');
-  negocios = await res.json();
+// Para evitar múltiples inicializaciones problemáticas
+let listenersAttached = false;
 
-  for (let negocio of negocios) {
-    try {
-      const docRef = doc(db, "calificaciones", negocio.firebaseId);
-      const docSnap = await getDoc(docRef);
-      if (docSnap.exists() && docSnap.data().promedio != null) {
-        negocio.estrellas = docSnap.data().promedio;
-      }
-    } catch(e) {
-      console.error(`Error cargando calificación de ${negocio.nombre}:`, e);
-    }
-  }
-  renderWithCurrentState();
+// ---------- UTIL: clona y reemplaza un nodo para eliminar listeners existentes ----------
+function replaceElementPreserveValue(selector) {
+  const el = document.querySelector(selector);
+  if (!el) return null;
+  const value = (el instanceof HTMLInputElement || el instanceof HTMLSelectElement) ? el.value : null;
+  const clone = el.cloneNode(true);
+  el.replaceWith(clone);
+  if (value !== null) clone.value = value;
+  return clone;
 }
 
-// Crear tarjeta HTML
+// ---------- CARGAR NEGOCIOS Y CALIFICACIONES ----------
+async function cargarNegocios() {
+  try {
+    const res = await fetch('negocios.json', { cache: "no-store" });
+    negocios = await res.json();
+
+    const promesas = negocios.map(async (negocio) => {
+      try {
+        const ref = doc(db, "calificaciones", negocio.firebaseId);
+        const snap = await getDoc(ref);
+        if (snap.exists() && snap.data().promedio != null) {
+          negocio.estrellas = snap.data().promedio;
+        } else {
+          negocio.estrellas = null;
+        }
+      } catch (err) {
+        console.error("Error cargando calificación de:", negocio.nombre, err);
+        negocio.estrellas = negocio.estrellas ?? null;
+      }
+    });
+
+    await Promise.all(promesas);
+
+    if (shouldShowResults()) {
+      renderWithCurrentState();
+    } else {
+      resultsGrid.innerHTML = '';
+      paginationEl.innerHTML = '';
+    }
+
+  } catch (err) {
+    console.error("Error cargando negocios.json:", err);
+  }
+}
+
+// ---------- HELP ----------
+function shouldShowResults() {
+  return (
+    searchText.trim() !== '' ||
+    activeFilters.category ||
+    activeFilters.municipio ||
+    activeFilters.sort
+  );
+}
+
+// ---------- CREAR TARJETA ----------
 function createCard(n) {
   const estrellasDisplay = n.estrellas != null ? n.estrellas.toFixed(1) : "Sin calificación";
 
@@ -54,7 +98,8 @@ function createCard(n) {
   if (n.local) iconos.push("🏪");
   if (n.tarjtransf) iconos.push("💳");
   if (n["24hrs"]) iconos.push("24 hrs");
-  const iconosDisplay = iconos.length > 0 ? "" + iconos.join(" • ") : "";
+
+  const iconosDisplay = iconos.length > 0 ? iconos.join(" • ") : "";
 
   return `
   <div class="col-12 col-sm-6 col-lg-3">
@@ -71,7 +116,7 @@ function createCard(n) {
   </div>`;
 }
 
-// Aplicar filtros y ordenamiento
+// ---------- FILTROS ----------
 function applyAllFilters() {
   let list = negocios.slice();
 
@@ -83,61 +128,56 @@ function applyAllFilters() {
     );
   }
 
-  // Filtros
+  // Categoría
   if (activeFilters.category) {
     list = list.filter(n => n.categoria === activeFilters.category);
   }
-  if (activeFilters.dom) {
-    list = list.filter(n => String(n.domicilio) === activeFilters.dom);
-  }
-  if (activeFilters.tartra) {
-    list = list.filter(n => String(n.tarjtransf) === activeFilters.tartra);
+
+  // 🔥 MUNICIPIO agregado
+  if (activeFilters.municipio) {
+    list = list.filter(n =>
+      Array.isArray(n.municipios) &&
+      n.municipios.includes(activeFilters.municipio)
+    );
   }
 
-  // Ordenamiento por calificación
+  // Orden por calificación
   if (activeFilters.sort === 'asc') {
-  list.sort((a, b) => {
-    if (a.estrellas == null && b.estrellas == null) return a.nombre.localeCompare(b.nombre);
-    if (a.estrellas == null) return 1;
-    if (b.estrellas == null) return -1;
-    return a.estrellas - b.estrellas;
-  });
-}
-
-if (activeFilters.sort === 'desc') {
-  list.sort((a, b) => {
-    if (a.estrellas == null && b.estrellas == null) return a.nombre.localeCompare(b.nombre);
-    if (a.estrellas == null) return 1;
-    if (b.estrellas == null) return -1;
-    return b.estrellas - a.estrellas;
-  });
-}
-
-  // ORDEN ALFABÉTICO PREDETERMINADO
-  if (!activeFilters.sort) {
+    list.sort((a, b) => {
+      if (a.estrellas == null && b.estrellas == null) return a.nombre.localeCompare(b.nombre);
+      if (a.estrellas == null) return 1;
+      if (b.estrellas == null) return -1;
+      return a.estrellas - b.estrellas;
+    });
+  } else if (activeFilters.sort === 'desc') {
+    list.sort((a, b) => {
+      if (a.estrellas == null && b.estrellas == null) return a.nombre.localeCompare(b.nombre);
+      if (a.estrellas == null) return 1;
+      if (b.estrellas == null) return -1;
+      return b.estrellas - a.estrellas;
+    });
+  } else {
     list.sort((a, b) => a.nombre.localeCompare(b.nombre));
   }
 
   return list;
 }
 
-// Render general
+// ---------- RENDER ----------
 function renderWithCurrentState() {
-  const list = applyAllFilters();
-
-  if (!searchText.trim() && !activeFilters.category && !activeFilters.dom && !activeFilters.tartra && !activeFilters.sort) {
+  if (!shouldShowResults()) {
     resultsGrid.innerHTML = '';
     paginationEl.innerHTML = '';
-    if (typeof bannerTextEl !== 'undefined') bannerTextEl.textContent = 'Anúnciate aquí';
     return;
   }
 
+  const list = applyAllFilters();
   currentPage = 1;
   renderPage(list, currentPage);
   renderPagination(list.length);
 }
 
-// Render de una página
+// ---------- PAGINA ----------
 function renderPage(list, page) {
   resultsGrid.innerHTML = '';
   const start = (page - 1) * RESULTS_PER_PAGE;
@@ -154,28 +194,32 @@ function renderPage(list, page) {
   resultsGrid.innerHTML = html;
 }
 
-// Render pagination
+// ---------- PAGINACIÓN ----------
 function renderPagination(totalItems) {
   const totalPages = Math.ceil(totalItems / RESULTS_PER_PAGE);
+
   if (totalPages <= 1) {
     paginationEl.innerHTML = '';
     return;
   }
 
-  let html = '';
-  html += `<li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
-             <a class="page-link" href="#" data-page="${currentPage - 1}">Anterior</a>
-           </li>`;
+  let html = `
+    <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
+      <a class="page-link" href="#" data-page="${currentPage - 1}">Anterior</a>
+    </li>
+  `;
 
   for (let i = 1; i <= totalPages; i++) {
-    html += `<li class="page-item ${i === currentPage ? 'active' : ''}">
-               <a class="page-link" href="#" data-page="${i}">${i}</a>
-             </li>`;
+    html += `
+      <li class="page-item ${i === currentPage ? 'active' : ''}">
+        <a class="page-link" href="#" data-page="${i}">${i}</a>
+      </li>`;
   }
 
-  html += `<li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
-             <a class="page-link" href="#" data-page="${currentPage + 1}">Siguiente</a>
-           </li>`;
+  html += `
+    <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
+      <a class="page-link" href="#" data-page="${currentPage + 1}">Siguiente</a>
+    </li>`;
 
   paginationEl.innerHTML = html;
 
@@ -183,7 +227,7 @@ function renderPagination(totalItems) {
     a.addEventListener('click', function(e) {
       e.preventDefault();
       const p = parseInt(this.getAttribute('data-page'));
-      if (!isNaN(p) && p >= 1) {
+      if (!isNaN(p)) {
         currentPage = p;
         const list = applyAllFilters();
         renderPage(list, currentPage);
@@ -194,52 +238,69 @@ function renderPagination(totalItems) {
   });
 }
 
-// Inicializar filtros y eventos
+// ---------- LISTENERS ----------
+function attachUIEventListeners() {
+  const searchInput = replaceElementPreserveValue('#searchInput') || document.getElementById('searchInput');
+  const categorySelect = replaceElementPreserveValue('#categoryFilter') || document.getElementById('categoryFilter');
+  const municipioSelect = replaceElementPreserveValue('#municipioFilter') || document.getElementById('municipioFilter');
+  const sortSelect = replaceElementPreserveValue('#sortFilter') || document.getElementById('sortFilter');
+  const clearBtn = replaceElementPreserveValue('#clearFiltersBtn') || document.getElementById('clearFiltersBtn');
+
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      searchText = searchInput.value;
+      renderWithCurrentState();
+    });
+  }
+
+  if (categorySelect) {
+    categorySelect.addEventListener('change', () => {
+      activeFilters.category = categorySelect.value;
+      renderWithCurrentState();
+    });
+  }
+
+  // 🔥 MUNICIPIO agregado
+  if (municipioSelect) {
+    municipioSelect.addEventListener('change', () => {
+      activeFilters.municipio = municipioSelect.value;
+      renderWithCurrentState();
+    });
+  }
+
+  if (sortSelect) {
+    sortSelect.addEventListener('change', () => {
+      activeFilters.sort = sortSelect.value;
+      renderWithCurrentState();
+    });
+  }
+
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      if (searchInput) searchInput.value = '';
+      if (categorySelect) categorySelect.value = '';
+      if (municipioSelect) municipioSelect.value = '';
+      if (sortSelect) sortSelect.value = '';
+
+      activeFilters = { category:'', municipio:'', sort:'', est:'' };
+      searchText = '';
+
+      renderWithCurrentState();
+    });
+  }
+
+  listenersAttached = true;
+}
+
+// ---------- INIT ----------
 document.addEventListener('DOMContentLoaded', async () => {
+  attachUIEventListeners();
   await cargarNegocios();
+});
 
-  const searchInput = document.getElementById('searchInput');
-  const categorySelect = document.getElementById('categoryFilter');
-  const domSelect = document.getElementById('domFilter');
-  const tartraSelect = document.getElementById('tartraFilter');
-  const sortSelect = document.getElementById('sortFilter');
-  const clearBtn = document.getElementById('clearFiltersBtn');
-
-  if (searchInput) searchInput.addEventListener('input', () => {
-    searchText = searchInput.value;
-    renderWithCurrentState();
-  });
-
-  if (categorySelect) categorySelect.addEventListener('change', () => {
-    activeFilters.category = categorySelect.value;
-    renderWithCurrentState();
-  });
-
-  if (domSelect) domSelect.addEventListener('change', () => {
-    activeFilters.dom = domSelect.value;
-    renderWithCurrentState();
-  });
-
-  if (tartraSelect) tartraSelect.addEventListener('change', () => {
-    activeFilters.tartra = tartraSelect.value;
-    renderWithCurrentState();
-  });
-
-  if (sortSelect) sortSelect.addEventListener('change', () => {
-    activeFilters.sort = sortSelect.value;
-    renderWithCurrentState();
-  });
-
-  if (clearBtn) clearBtn.addEventListener('click', () => {
-    if (searchInput) searchInput.value = '';
-    if (categorySelect) categorySelect.value = '';
-    if (domSelect) domSelect.value = '';
-    if (tartraSelect) tartraSelect.value = '';
-    if (sortSelect) sortSelect.value = '';
-
-    activeFilters = { category:'', dom:'', tartra:'', sort:'', est:'' };
-    searchText = '';
-
-    renderWithCurrentState();
-  });
+window.addEventListener("pageshow", (event) => {
+  if (event.persisted) {
+    attachUIEventListeners();
+    cargarNegocios();
+  }
 });
