@@ -23,7 +23,7 @@
     "web_text3": "linktr.ee",
     "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30489.9834699188!2d-100.45334093335927!3d17.206757553572753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb25460f0c5775%3A0x2eb016bf13c5e1b1!2s40930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764456954797!5m2!1ses-419!2smx",
-    "carrucel1": "ICTec.webp"
+    "carrucel1": "ICTec1.webp", "carrucel2": "ICTec2.webp", "carrucel3": "ICTec3.webp"
 
   },
   {
@@ -1055,3 +1055,4 @@
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1602.356443083611!2d-100.42732701752308!3d17.215520989365494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b4a100f6b3b%3A0x1dd3803603b7cc7a!2sVerdecito%20Atoyac!5e0!3m2!1ses-419!2smx!4v1765414073921!5m2!1ses-419!2smx"
   }
 ]
+
