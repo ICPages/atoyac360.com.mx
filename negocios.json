@@ -24,7 +24,6 @@
     "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30489.9834699188!2d-100.45334093335927!3d17.206757553572753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb25460f0c5775%3A0x2eb016bf13c5e1b1!2s40930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764456954797!5m2!1ses-419!2smx",
     "carrucel1": "ICTec1.webp", "carrucel2": "ICTec2.webp", "carrucel3": "ICTec3.webp"
-
   },
   {
     "id": 2,
@@ -41,7 +40,7 @@
     "deslarga": "Aitana's Beauty Zone es una academia de belleza dedicada a formar profesionales con técnicas actualizadas y enfoque práctico. Ofrecemos cursos diseñados para desarrollar habilidades reales en áreas como maquillaje, uñas, piel, peinados y más. Nuestra misión es brindar enseñanza de calidad, accesible y con acompañamiento personalizado. Aquí encontrarás un ambiente de aprendizaje dinámico, seguro y motivador. En Aitana's Beauty Zone impulsamos tu talento para que logres crecer y destacar en el mundo de la belleza otorgando diplomados en:<br>✔ Aplicación y decoración de uñas<br>✔ Color y transformación en el cabello<br>✔ Estilismo y diseño de imagen<br>✔ Maquillaje del rostro<br>✔ Peluquería y barbería",
     "horario1": "Martes a Domingo. 9:00 AM a 4:00 PM.",
     "whatsapp1": "742 423 3367",
-    "municipios": ["San Jerónimo de Juárez"],
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3811.2552641123725!2d-100.4364183!3d17.2064017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb2554dc13a72f%3A0x914a4ffc9f400e63!2sAquiles%20Serd%C3%A1n%2046%2C%20Dorotea%2C%2040945%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764458994468!5m2!1ses-419!2smx" 
   },
   {
@@ -141,7 +140,7 @@
     "deslarga": "Divertishow Chispita es una animadora infantil que convierte cualquier fiesta en un evento lleno de alegría, juegos y participación. Su energía, carisma y trato con los niños hacen que cada dinámica sea divertida, segura y memorable. Ofrece shows interactivos, concursos, baile, risas y entretenimiento adaptado a cada tipo de evento. Su objetivo es que todos los pequeños se diviertan y los papás disfruten sin preocupaciones. Con Divertishow Chispita tu fiesta estará llena de magia, entusiasmo y buen ambiente.<br>✔ Activación de negocios<br>✔ Baby shower's<br>✔ Fiestas infantiles<br>✔ Pintacaritas<br>✔ Despedidas de soltera",
     "horario1": "Contrataciones previas.",
     "whatsapp1": "742 110 6543",
-    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"],
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30489.9834699188!2d-100.45334093335927!3d17.206757553572753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb25460f0c5775%3A0x2eb016bf13c5e1b1!2s40930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764456954797!5m2!1ses-419!2smx"
   },
   {
@@ -226,7 +225,7 @@
     "deslarga": "Payaso Gutty ofrece un espectáculo lleno de alegría, juegos dinámicos y risas para hacer de cada fiesta un momento especial. Con carisma, energía y experiencia en animación infantil, interactúa con los pequeños mediante concursos, chistes y actividades participativas. Su objetivo es lograr que todos se diviertan mientras los papás disfrutan sin preocupaciones. Además, adapta su show a diferentes tipos de eventos y edades. Payaso Gutty es la opción ideal para llevar ambiente, diversión y un recuerdo inolvidable a cualquier celebración.",
     "horario1": "Contrataciones previas.",
     "whatsapp1": "742 114 7705",
-    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"],
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30489.9834699188!2d-100.45334093335927!3d17.206757553572753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb25460f0c5775%3A0x2eb016bf13c5e1b1!2s40930%20Atoyac%20de%20%C3%81lvarez%2C%20Gro.!5e0!3m2!1ses-419!2smx!4v1764456954797!5m2!1ses-419!2smx"
   },
   {
@@ -370,7 +369,7 @@
     "horario2": "Todos los días. A partir de 5:00 AM.",
     "llamadas3": "755 103 3689",
     "mapa2": "",
-    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"]
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 18,
@@ -475,7 +474,7 @@
     "whatsapp1": "742 1237170",
     "whatsapp2": "742 111 8798",
     "mapa2": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3811.2183014352895!2d-100.44300192483915!3d17.208195983648782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDEyJzI5LjUiTiAxMDDCsDI2JzI1LjUiVw!5e0!3m2!1ses-419!2smx!4v1764788276374!5m2!1ses-419!2smx",
-    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"]
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 23,
@@ -511,7 +510,7 @@
     "deslarga": "Aquí encuentras productos de ferretería y materiales de construcción seleccionados por su calidad y durabilidad. El enfoque del negocio es brindar seguridad al cliente, evitando productos de baja calidad que comprometan una obra. Ofrecen asesoría directa para ayudarte a elegir lo más adecuado según tu proyecto. También manejan precios accesibles sin sacrificar la resistencia de los materiales. Su objetivo es que construyas con tranquilidad y lleves a casa lo mejor para tu patrimonio.",
     "horario1": "Lunes a Sábado. 8:00 AM a 6:00 PM.",
     "whatsapp1": "742 109 4150",
-    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"],
+    "municipios": ["Atoyac de Álvarez"],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d476.4110354882873!2d-100.4385945334361!3d17.20479866273745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb254c6d2af809%3A0xba4a89a64987b89!2sFerreter%C3%ADa%20y%20materiales%20Ejido!5e0!3m2!1ses-419!2smx!4v1764789624571!5m2!1ses-419!2smx"
   },
   {
@@ -915,7 +914,7 @@
     "carrucel3": "JCSS3.webp",
     "carrucel4": "JCSS4.webp",
     "carrucel5": "JCSS5.webp",
-    "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"]
+    "municipios": ["Atoyac de Álvarez"]
   },
   {
     "id": 44,
@@ -1055,4 +1054,3 @@
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1602.356443083611!2d-100.42732701752308!3d17.215520989365494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b4a100f6b3b%3A0x1dd3803603b7cc7a!2sVerdecito%20Atoyac!5e0!3m2!1ses-419!2smx!4v1765414073921!5m2!1ses-419!2smx"
   }
 ]
-
