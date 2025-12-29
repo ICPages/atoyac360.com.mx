@@ -242,3 +242,35 @@ body {
     color: #F4C430;
     text-decoration: none;
 }
+
+/* ======================================================
+   BOTÓN SUBIR (MISMO ESTILO QUE PAGINACIÓN)
+====================================================== */
+#btnScrollTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    z-index: 999;
+
+    background-color: #FFF8E6;
+    border: 1px solid #BF360C;
+    color: #BF360C;
+
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+
+    font-size: 20px;
+    line-height: 1;
+    padding: 0;
+
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Hover igual que .page-item:hover .page-link */
+#btnScrollTop:hover {
+    background-color: #F4C430;
+    border-color: var(--navbar-bg);
+    color: #BF360C;
+}
