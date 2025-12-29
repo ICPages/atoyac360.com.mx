@@ -23,7 +23,7 @@ const RESULTS_PER_PAGE = 12;
 let currentPage = 1;
 
 // 🔥 dom y tartra eliminados
-let activeFilters = { category:'', municipio:'', sort:'', est:'' };
+let activeFilters = { category: '', municipio: '', sort: '', est: '' };
 
 let searchText = '';
 
@@ -203,31 +203,55 @@ function renderPagination(totalItems) {
     return;
   }
 
-  let html = `
+  let html = '';
+
+  // Anterior
+  html += `
     <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
       <a class="page-link" href="#" data-page="${currentPage - 1}">Anterior</a>
     </li>
   `;
 
-  for (let i = 1; i <= totalPages; i++) {
+  // Primera página
+  html += `
+    <li class="page-item ${currentPage === 1 ? 'active' : ''}">
+      <a class="page-link" href="#" data-page="1">1</a>
+    </li>
+  `;
+
+  // Página actual (si no es primera ni última)
+  if (currentPage !== 1 && currentPage !== totalPages) {
     html += `
-      <li class="page-item ${i === currentPage ? 'active' : ''}">
-        <a class="page-link" href="#" data-page="${i}">${i}</a>
-      </li>`;
+      <li class="page-item active">
+        <span class="page-link">${currentPage}</span>
+      </li>
+    `;
   }
 
+  // Última página (si es distinta de la primera)
+  if (totalPages > 1) {
+    html += `
+      <li class="page-item ${currentPage === totalPages ? 'active' : ''}">
+        <a class="page-link" href="#" data-page="${totalPages}">${totalPages}</a>
+      </li>
+    `;
+  }
+
+  // Siguiente
   html += `
     <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
       <a class="page-link" href="#" data-page="${currentPage + 1}">Siguiente</a>
-    </li>`;
+    </li>
+  `;
 
   paginationEl.innerHTML = html;
 
+  // Eventos
   document.querySelectorAll('#pagination a').forEach(a => {
-    a.addEventListener('click', function(e) {
+    a.addEventListener('click', function (e) {
       e.preventDefault();
-      const p = parseInt(this.getAttribute('data-page'));
-      if (!isNaN(p)) {
+      const p = parseInt(this.dataset.page);
+      if (!isNaN(p) && p >= 1 && p <= totalPages) {
         currentPage = p;
         const list = applyAllFilters();
         renderPage(list, currentPage);
@@ -282,7 +306,7 @@ function attachUIEventListeners() {
       if (municipioSelect) municipioSelect.value = '';
       if (sortSelect) sortSelect.value = '';
 
-      activeFilters = { category:'', municipio:'', sort:'', est:'' };
+      activeFilters = { category: '', municipio: '', sort: '', est: '' };
       searchText = '';
 
       renderWithCurrentState();
@@ -303,4 +327,24 @@ window.addEventListener("pageshow", (event) => {
     attachUIEventListeners();
     cargarNegocios();
   }
+});
+
+// ---------- BOTÓN SCROLL TO TOP ----------
+const btnScrollTop = document.getElementById('btnScrollTop');
+
+// Mostrar / ocultar botón según scroll
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 400) {
+    btnScrollTop.style.display = 'block';
+  } else {
+    btnScrollTop.style.display = 'none';
+  }
+});
+
+// Subir suavemente
+btnScrollTop.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 });
