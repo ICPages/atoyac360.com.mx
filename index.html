@@ -22,12 +22,37 @@
     </nav>
 
     <!-- HEADER -->
-    <header class="hero-header d-flex align-items-center">
-        <div class="container text-center py-5">
-            <h1 class="fw-bold science-gothic">Directorio Local de Atoyac de Álvarez</h1>
-            <p class="lead">Sitio 100% Atoyaquense - Encuentra servicios, comercios y negocios locales.</p>
+    <header class="hero-header p-0">
+
+    <div id="headerCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <!-- INDICADORES -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#headerCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#headerCarousel" data-bs-slide-to="1"></button>
         </div>
-    </header>
+
+        <!-- IMÁGENES -->
+        <div class="carousel-inner">
+
+            <div class="carousel-item active bg-ad-1">
+                <img src="anuncio1.webp" class="d-block w-100" alt="Publicidad 1">
+            </div>
+
+            <div class="carousel-item bg-ad-2">
+                <img src="anuncio2.webp" class="d-block w-100" alt="Publicidad 2">
+            </div>
+
+        </div>
+
+        <!-- CONTROLES -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev"></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#headerCarousel" data-bs-slide="next"></button>
+
+    </div>
+
+</header>
+
 
     <!-- CONTENIDO PRINCIPAL -->
     <main class="container" style="margin-top:30px;">
