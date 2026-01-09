@@ -5,23 +5,32 @@
     /* NAVBAR */
     --navbar-bg: #BF360C;
     --navbar-text: #ffffff;
+
     /* HEADER */
     --hero-text: #E67E22;
+
     /* BODY */
     --body-bg: #FFF8E6;
+
     /* TARJETAS */
     --card-bg: #ffffff;
     --card-text: #8C4A00;
+
     /* FOOTER */
     --footer-bg: #BF360C;
     --footer-text: #ffffff;
+
     /* OTROS */
     --accent-color: #F4C430;
     --card-shadow: #F0D8A0;
+
+    /* PUBLICIDAD / CAROUSEL HEADER */
+    --ad-bg-1: #BF360C;
+    --ad-bg-2: #FFF8E6;
 }
 
 /* ======================================================
-   FUENTE PRINCIPAL
+   FUENTES
 ====================================================== */
 .science-gothic {
     font-family: "Science Gothic", sans-serif;
@@ -29,7 +38,7 @@
 }
 
 .bad-script-regular {
-  font-family: "Bad Script", cursive;
+    font-family: "Bad Script", cursive;
 }
 
 /* ======================================================
@@ -48,41 +57,28 @@ body {
     background-color: var(--navbar-bg) !important;
 }
 
-.navbar-brand, .navbar a {
+.navbar-brand,
+.navbar a {
     color: var(--navbar-text) !important;
 }
 
 /* ======================================================
-   HEADER (HERO)
+   HEADER (BASE)
 ====================================================== */
 .hero-header {
     background: linear-gradient(45deg, #F4C430, #E67E22, #D35400);
     background-size: 400% 100%;
     animation: heroGradient 12s ease infinite;
     min-height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 40px 20px;
+    padding: 0;
+    margin-top: -10px;
     position: relative;
-}
-
-.hero-header h1, .hero-header h2, .hero-header p, .hero-header span, .hero-header .science-gothic {
-    animation: textColor 12s ease infinite;
 }
 
 @keyframes heroGradient {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
-}
-
-@keyframes textColor {
-    25% { color: #ffffff; }
-    50% { color: #F4C430; }
-    75% { color: #E67E22; }
-    100% { color: #D35400; }
 }
 
 /* ======================================================
@@ -95,8 +91,8 @@ body {
 }
 
 #buscador .card {
-    max-width: 1000px;   /* Ajusta el valor que desees */
-    margin: 0 auto;       /* Centra horizontalmente */
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 #buscador .col-md-3 {
@@ -110,10 +106,8 @@ body {
 }
 
 @media (max-width: 768px) {
-
     #buscador .row {
         flex-wrap: wrap;
-        justify-content: center;
     }
 
     #buscador .col-md-3 {
@@ -129,7 +123,7 @@ body {
 }
 
 /* ======================================================
-   TARJETAS DEL DIRECTORIO
+   TARJETAS
 ====================================================== */
 .business-card {
     background: var(--card-bg);
@@ -141,7 +135,7 @@ body {
 
 .business-card:hover {
     transform: translateY(-6px) scale(1.01);
-    box-shadow: 0 14px 30px #F4C430;
+    box-shadow: 0 14px 30px var(--accent-color);
 }
 
 .premium-card {
@@ -152,19 +146,20 @@ body {
    PAGINACIÓN
 ====================================================== */
 .page-item.active .page-link {
-    background-color: #BF360C;
+    background-color: var(--navbar-bg);
     border-color: var(--navbar-bg);
-    color: #FFF8E6;
+    color: var(--body-bg);
 }
+
 .page-item .page-link {
-    background-color: #FFF8E6;    /* Antes estaba en el activo */
-    border-color: #BF360C;        /* Antes estaba en el activo */
-    color: #BF360C;               /* Texto */
-}
-.page-item:hover .page-link {
-    background-color: #F4C430;
+    background-color: var(--body-bg);
     border-color: var(--navbar-bg);
-    color: #BF360C;
+    color: var(--navbar-bg);
+}
+
+.page-item:hover .page-link {
+    background-color: var(--accent-color);
+    color: var(--navbar-bg);
 }
 
 /* ======================================================
@@ -174,12 +169,11 @@ body {
     cursor: pointer;
     font-size: 28px;
     user-select: none;
-    display: inline-block;
     padding: 3px;
 }
 
 /* ======================================================
-   CAROUSEL
+   CAROUSEL GENERAL (OTRAS PLANTILLAS)
 ====================================================== */
 .carousel-item img {
     width: 100%;
@@ -189,7 +183,63 @@ body {
 
 @media (max-width: 768px) {
     .carousel-item img {
-        height: 300px; /* más bajo en móvil */
+        height: 300px;
+    }
+}
+
+/* ======================================================
+   HEADER CAROUSEL (PUBLICIDAD) — AISLADO Y RESPONSIVO
+====================================================== */
+#headerCarousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Centrado perfecto */
+#headerCarousel .carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Fondos por slide */
+#headerCarousel .bg-ad-1 {
+    background-color: var(--ad-bg-1);
+}
+
+#headerCarousel .bg-ad-2 {
+    background-color: var(--ad-bg-2);
+}
+
+/* Imagen SIEMPRE COMPLETA */
+#headerCarousel .carousel-item img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    max-height: 70vh;
+    min-height: 280px;
+    object-fit: contain;
+}
+
+/* Pantallas grandes */
+@media (min-width: 1400px) {
+    #headerCarousel .carousel-item img {
+        max-height: 500px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 992px) {
+    #headerCarousel .carousel-item img {
+        max-height: 420px;
+    }
+}
+
+/* Móviles */
+@media (max-width: 576px) {
+    #headerCarousel .carousel-item img {
+        aspect-ratio: 4 / 3;
+        max-height: 260px;
     }
 }
 
@@ -205,24 +255,15 @@ body {
 /* ======================================================
    ENLACES
 ====================================================== */
-.redes a {
-    color: #8C4A00;
-    text-decoration: none;
-}
-
-.redes a:hover {
-    color: #E67E22;
-    text-decoration: none;
-}
-
+.redes a,
 .descargarmenu {
-    color: #8C4A00;
+    color: var(--card-text);
     text-decoration: none;
 }
 
+.redes a:hover,
 .descargarmenu:hover {
-    color: #E67E22;
-    text-decoration: none;
+    color: var(--hero-text);
 }
 
 /* ======================================================
@@ -239,12 +280,11 @@ body {
 }
 
 .custom-footer a:hover {
-    color: #F4C430;
-    text-decoration: none;
+    color: var(--accent-color);
 }
 
 /* ======================================================
-   BOTÓN SUBIR (MISMO ESTILO QUE PAGINACIÓN)
+   BOTÓN SUBIR
 ====================================================== */
 #btnScrollTop {
     position: fixed;
@@ -252,25 +292,16 @@ body {
     right: 30px;
     display: none;
     z-index: 999;
-
-    background-color: #FFF8E6;
-    border: 1px solid #BF360C;
-    color: #BF360C;
-
+    background-color: var(--body-bg);
+    border: 1px solid var(--navbar-bg);
+    color: var(--navbar-bg);
     border-radius: 50%;
     width: 45px;
     height: 45px;
-
     font-size: 20px;
-    line-height: 1;
     padding: 0;
-
-    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
-/* Hover igual que .page-item:hover .page-link */
 #btnScrollTop:hover {
-    background-color: #F4C430;
-    border-color: var(--navbar-bg);
-    color: #BF360C;
+    background-color: var(--accent-color);
 }
