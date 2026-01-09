@@ -3,7 +3,7 @@
     "id": 1,
     "firebaseId": "ICTec",
     "imagen": "1.webp",
-    "nombre": "IC | Tecnologías",
+    "nombre": "IC | Servicios Digitales",
     "categoria": "Servicios Profesionales",
     "descorta": "Reparación, mantenimiento y optimización de computadoras. Atención profesional para resolver fallas, mejorar el rendimiento y dejar tu equipo funcionando al 100%.",
     "estrellas": null,
@@ -13,12 +13,12 @@
     "24hrs": false,
     "pagina": "Premium.html",
     "deslarga": "Cuento con formación en Ingeniería Mecatrónica e Ingeniería en Sistemas y TI, lo que me permite unir la electrónica, la automatización y los sistemas digitales para ofrecer un servicio técnico completo y confiable. Realizo reparación, mantenimiento preventivo y correctivo, optimización de equipos, instalación de programas y eliminación de fallas de software o hardware. También ofrezco armado de computadoras, desde configuraciones básicas hasta PC gamer o de alto rendimiento, adaptadas a cualquier propósito y presupuesto. Tengo experiencia en programación (Arduino, C, C#, Python), desarrollo web, electrónica y diseño de prototipos con herramientas profesionales como SolidWorks y Multisim. Además, manejo aplicaciones como Word, Excel y Canva para extender documentación bien estructurada.<br>Servicios a domicilio en:<br>✔ Atoyac de Álvarez<br>✔ San Jerónimo de Juárez<br>✔ Tecpan de Galeana",
-    "horario1": "Todos los días. 8:00 AM - 10:00 PM.<br>Citas previas.",
+    "horario1": "Lunes a Sábado. 8:00 AM - 10:00 PM.<br>Citas previas.",
     "whatsapp1": "222 110 6016",
-    "web1": "https://icpages.github.io/IC-Freelancer/#services",
+    "web1": "https://icpages.github.io/ICSmartServices/",
     "web2": "https://atoyac360.com.mx/",
     "web3": "https://linktr.ee/imercoria",
-    "web_text1": "IC Freelancer",
+    "web_text1": "IC Smart Services",
     "web_text2": "atoyac360.com.mx",
     "web_text3": "linktr.ee",
     "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"],
@@ -590,7 +590,7 @@
     "24hrs": false,
     "pagina": "Premium.html",
     "deslarga": "Disfruta de postres y pasteles hechos con dedicación y creatividad, preparados completamente desde cero. Cada receta se elabora de manera artesanal, evitando ingredientes ultraprocesados para garantizar sabor y calidad. Ofrecen una variedad de pasteles, postres y repostería personalizada para cualquier ocasión. El cheff Erick Quiñones combina técnica y pasión en cada creación, logrando productos únicos y deliciosos. Perfecto para cumpleaños, eventos especiales o simplemente consentirse con un dulce de calidad. Un espacio donde la tradición de la repostería se une con la innovación y el buen gusto.",
-    "horario1": "Martes a Sábado. 2:00 PM a 8:00 PM.",
+    "horario1": "Pedidos previos.",
     "whatsapp1": "742 117 1605",
     "facebook1": "share/1Afak65qtg/",
     "instagram1": "@azulpastel_reposteria",
@@ -1054,4 +1054,3 @@
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1602.356443083611!2d-100.42732701752308!3d17.215520989365494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b4a100f6b3b%3A0x1dd3803603b7cc7a!2sVerdecito%20Atoyac!5e0!3m2!1ses-419!2smx!4v1765414073921!5m2!1ses-419!2smx"
   }
 ]
-
