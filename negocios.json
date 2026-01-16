@@ -1159,5 +1159,21 @@
       "Atoyac de Álvarez"
     ],
     "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1602.356443083611!2d-100.42732701752308!3d17.215520989365494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb3b4a100f6b3b%3A0x1dd3803603b7cc7a!2sVerdecito%20Atoyac!5e0!3m2!1ses-419!2smx!4v1765414073921!5m2!1ses-419!2smx"
-  }
+  },
+  {
+  "id": 51,
+  "firebaseId": "Medano",
+  "imagen": "Medano.webp", "nombre": "Médano Beach Events", "categoria": "Entretenimiento y Eventos",
+  "descorta": "Espacio exclusivo frente al mar para la renta de eventos sociales. El lugar ideal para bodas, XV años, celebraciones especiales y momentos inolvidables en la playa.",
+  "estrellas": null, "domicilio": false, "local": true, "tarjtransf": true, "24hrs": false, "pagina": "Premium.html",
+  "deslarga": "Médano es un lugar único frente al mar diseñado para convertir tus eventos en experiencias memorables. Su entorno natural, la brisa marina y los atardeceres espectaculares crean el escenario ideal para bodas, XV años, aniversarios, eventos sociales y celebraciones especiales. Ofrecemos un espacio versátil que se adapta a distintos estilos y necesidades, combinando la belleza de la playa con comodidad, privacidad y un ambiente elegante. En Médano, cada evento se vive con magia, exclusividad y un toque natural que transforma cualquier celebración en un recuerdo para toda la vida.",
+  "horario1": null,
+  "llamadas1": "742 103 6800", "whatsapp1": "742 103 6800",
+  "facebook1": "share/1KZdvakPM1/", "instagram1": "@medano.beach.club", "tiktok1": "", "web1": "https://icpages.github.io/M-dano/",
+  "facebook_text1": "Médano", "web_text1": "medano.com.mx",
+  "mapa1": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3814.165394160005!2d-100.43903932321413!3d17.064560670198222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cb273519fb3679%3A0xd500146c6897acbf!2sM%C3%A9dano%20Beach%20Club!5e0!3m2!1ses-419!2smx!4v1768534218213!5m2!1ses-419!2smx",
+  "menu": "",
+  "municipios": ["Atoyac de Álvarez", "San Jerónimo de Juárez", "Tecpan de Galeana"],
+  "carrucel1": "Medano1.webp", "carrucel2": "Medano2.webp", "carrucel3": "Medano3.webp", "carrucel4": "Medano4.webp", "carrucel5": "Medano5.webp"
+}
 ]
