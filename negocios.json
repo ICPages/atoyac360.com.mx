@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 52,
     "firebaseId": "ICTec",
     "imagen": "1.webp",
     "nombre": "IC Tecnologías",
@@ -1177,4 +1177,5 @@
   "carrucel1": "Medano1.webp", "carrucel2": "Medano2.webp", "carrucel3": "Medano3.webp", "carrucel4": "Medano4.webp", "carrucel5": "Medano5.webp"
 }
 ]
+
 
