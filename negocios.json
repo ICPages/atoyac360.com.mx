@@ -3,7 +3,7 @@
     "id": 1,
     "firebaseId": "ICTec",
     "imagen": "1.webp",
-    "nombre": "IC Servicios Inteligentes",
+    "nombre": "IC Tecnologías",
     "categoria": "Servicios Profesionales",
     "descorta": "Servicios tecnológicos y educativos como clases, desarrollo web, soporte técnico, instalación de cámaras de seguridad y diseño de contenido para redes sociales.",
     "estrellas": null,
@@ -1177,3 +1177,4 @@
   "carrucel1": "Medano1.webp", "carrucel2": "Medano2.webp", "carrucel3": "Medano3.webp", "carrucel4": "Medano4.webp", "carrucel5": "Medano5.webp"
 }
 ]
+
